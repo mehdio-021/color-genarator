@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+body {
+  
+  direction: rtl;
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+.control{
+  width: 40vw;
+}
+.box{
+  width: 40vw;
+  height: 50vh;
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+}
+.box p{
+  background-color:rgb(149,149,149) ;
+  border: 2px solid black;
+  padding: 20px;
+  width: 75%;
+  text-align: center;
+}
